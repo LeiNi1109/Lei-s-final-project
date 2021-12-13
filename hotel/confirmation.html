@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirmation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="confirmation.js"></script>
+</head>
+<body id="confirmation-body" onload="getInfo()">
+    <div class="top-nav">
+        <a class="active" href="index.html">Home</a>
+        <a href="reservation.html">Reserve</a>
+        <a href="about.html">About US</a>
+    </div>
+    <div id="confirmation-container">
+        <h3>Room Confirmation</h3>
+        Dear <nobr id="customerName"></nobr>,<br><br>
+        Thank you for your reservation! <br><br>
+        Here is your room information: <br><br>
+        Room number: <nobr id="roomNumber"></nobr><br><br>
+        Cost each night: $<nobr id="costPerNight"></nobr><br><br>
+        Total cost for the room: $<nobr id="costTotalNight"></nobr><br><br>
+        Floor: <nobr id="floor"></nobr><br><br>
+        Room Type: <nobr id="roomType"></nobr><br><br>
+        Bed Type: <nobr id="bedType"></nobr><br><br>
+        Smoke: <nobr id="smoke"></nobr><br><br>
+        Number of people: <nobr id="peopleNumber"></nobr><br><br>
+        Start Date: <nobr id="startDate"></nobr><br><br>
+        End Date: <nobr id="endDate"></nobr><br><br>
+        Breakfast: <nobr id="breakfast"></nobr><br><br>
+        Breakfast cost: $<nobr id="breakfastCost"></nobr><br><br>
+        Total cost: $<nobr id="totalCost"></nobr><br><br>
+        Reservation Number: <nobr id="reservationNumber"></nobr><br><br>
+        <a href="index.html"><button>Confirm</button></a>
+    </div>
+    <div class="empty"></div>
+    <div class="footer">
+        <p class="footer-item">Copyright &copy; 2021 Hotel</p>
+        <a class="footer-link" href="https://www.google.com/maps/place/52+E+41st+St,+New+York,+NY+10017/@40.7516345,-73.9801558,18z/data=!4m5!3m4!1s0x89c25901081d746f:0x160354f90a64f0a1!8m2!3d40.7516345!4d-73.9790926">Directions</a>
+        <p class="footer-item">52 E 41st St, New York, NY 10017</p>
+    </div>
+</body>
+</html>
